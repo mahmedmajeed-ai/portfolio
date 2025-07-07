@@ -92,7 +92,7 @@ const Hero = () => {
               <div className="w-72 h-72 rounded-full overflow-hidden border-2 border-gray-300 relative z-10">
                 <img
                   src="src/data/my-picture.jpeg"
-                  alt="Muhammad Ahmed"
+                  // alt="Muhammad Ahmed"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-full"></div>
