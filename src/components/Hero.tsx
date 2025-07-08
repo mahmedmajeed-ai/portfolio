@@ -65,7 +65,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="src/data/Mr. Muhammad Ahmed CV.pdf"
+                href="public/data/Mr. Muhammad Ahmed CV.pdf"
                 download
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-200 flex items-center justify-center transform hover:scale-105 hover:shadow-lg"
               >
@@ -91,7 +91,7 @@ const Hero = () => {
               {/* Picture placeholder */}
               <div className="w-72 h-72 rounded-full overflow-hidden border-2 border-gray-300 relative z-10">
                 <img
-                  src="src/data/my-picture.jpeg"
+                  src="public/data/my-picture.jpeg"
                   // alt="Muhammad Ahmed"
                   className="w-full h-full object-cover"
                 />
