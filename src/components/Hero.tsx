@@ -91,7 +91,7 @@ const Hero = () => {
               {/* Picture placeholder */}
               <div className="w-72 h-72 rounded-full overflow-hidden border-2 border-gray-300 relative z-10">
                 <img
-                  src="/data/my-picture.jpeg"
+                  src={`${import.meta.env.BASE_URL}data/my-picture.jpeg`}
                   // alt="Muhammad Ahmed"
                   className="w-full h-full object-cover"
                 />
