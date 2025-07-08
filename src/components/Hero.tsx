@@ -65,7 +65,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href={`${import.meta.env.BASE_URL}data/Mr. Muhammad Ahmed CV.pdf`}
+                href={`${import.meta.env.BASE_URL}data/Muhammad_Ahmed_CV.pdf`}
                 download
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-200 flex items-center justify-center transform hover:scale-105 hover:shadow-lg"
               >
